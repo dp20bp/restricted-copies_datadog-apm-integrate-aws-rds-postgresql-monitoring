@@ -663,6 +663,30 @@ userid|dbid|queryid|query|calls|total_time|min_time|max_time|mean_time|stddev_ti
 Postgres pg_stat_statements read OK
 </pre>
 <br />
+⌘ Configure the Agent ==> [ To configure collecting Database Monitoring metrics for an Agent running on a host, for example when you provision a small EC2 instance for the Agent to collect from an RDS database ]:
+<pre>
+[ec2-user@ip-172-31-11-247 ~]$ cd /etc/datadog-agent/ <br />
+[ec2-user@ip-172-31-11-247 datadog-agent]$ ls -lah
+total 400K
+drwxr-xr-x.   7 dd-agent dd-agent  16K Oct 15 11:21 .
+drwxr-xr-x.  78 root     root      16K Oct 15 13:18 ..
+-rw-------.   1 dd-agent dd-agent   64 Oct 15 11:21 auth_token
+drwxr-xr-x.   2 dd-agent dd-agent    6 Sep 24 07:30 checks.d
+drwxr-xr-x.   2 dd-agent dd-agent  16K Oct 15 11:21 compliance.d
+drwxr-xr-x. 211 dd-agent dd-agent  16K Oct 15 11:20 conf.d
+-rw-r-----.   1 dd-agent dd-agent 154K Oct 15 11:21 datadog.yaml
+-rw-r--r--.   1 dd-agent dd-agent 154K Sep 24 07:30 datadog.yaml.example
+-rw-r--r--.   1 root     root        0 Oct 15 11:21 environment
+-rw-r--r--.   1 dd-agent dd-agent  119 Oct 15 11:21 install.json
+-rw-r--r--.   1 dd-agent dd-agent  125 Oct 15 11:21 install_info
+drwxr-xr-x.   2 dd-agent dd-agent   28 Oct 15 11:21 runtime-security.d
+-r--r-----.   1 dd-agent dd-agent  835 Sep 24 07:30 security-agent.yaml.example
+drwxr-xr-x.   2 dd-agent dd-agent   36 Oct 15 11:21 selinux
+-r--r-----.   1 dd-agent dd-agent 7.2K Sep 24 07:30 system-probe.yaml.example <br />
+[ec2-user@ip-172-31-11-247 datadog-agent]$ ls -lah conf.d/ | grep postgres.d
+drwxr-xr-x.   2 dd-agent dd-agent  31 Oct 15 11:21 postgres.d <br />
+[ec2-user@ip-172-31-11-247 datadog-agent]$ sudo touch conf.d/postgres.d/conf.yaml
+</pre>
 <!-- processing -->
 <br /><hr />
 </details>

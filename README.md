@@ -470,7 +470,7 @@ Complete! <br />
 </div><br /><hr>
 </details>
 
-<details><summary>🟠 015 - Overview - Configuration in Instance (EC2) <mark>datadog-ec2-01:</mark> <br />
+<details><summary>🟠 015 - Overview - Configuration in Instance (EC2) <mark>datadog-ec2-01:</mark>🌟 <br />
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;⌘ VPC for RDS database and EC2 instance. <br />
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;⌘ Setting Up Database Monitoring for self hosted Postgres. </summary>
 <br />

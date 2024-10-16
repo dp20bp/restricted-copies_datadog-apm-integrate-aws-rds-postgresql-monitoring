@@ -230,7 +230,7 @@ https://ap1.datadoghq.com
 </div><br /><hr />
 </details>
 
-<details><summary>🟠 011 - Overview - Datadog - Integration ( Lanjutan )</summary>
+<details><summary>🟠 011 - Overview - Datadog - Integration ( Continued )</summary>
 <div align="left">
 <br />
 <img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_029.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br />

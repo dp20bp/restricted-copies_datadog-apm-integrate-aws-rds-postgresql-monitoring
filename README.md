@@ -279,3 +279,39 @@ Public IPv4: 3.107.86.65
 ❯ ssh -i "./Files/datadog-ec2.pem" ec2-user@ec2-3-107-86-65.ap-southeast-2.compute.amazonaws.com
 </pre>
 
+-   <details><summary>[ Test Connection to instance ]</summary>
+    <pre>
+    ❯ ssh -i "./Files/datadog-ec2.pem" ec2-user@ec2-3-107-86-65.ap-southeast-2.compute.amazonaws.com <br />
+    The authenticity of host 'ec2-3-107-86-65.ap-southeast-2.compute.amazonaws.com (3.107.86.65)' can't be established.
+    ED25519 key fingerprint is SHA256:7A+t/fzJgVbypjTiCZYYFsatEW+TGQZKmaHINKElRc4.
+    This key is not known by any other names
+    Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+    Warning: Permanently added 'ec2-3-107-86-65.ap-southeast-2.compute.amazonaws.com' (ED25519) to the list of known hosts.
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    @         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    Permissions 0644 for './Files/datadog-ec2.pem' are too open.
+    It is required that your private key files are NOT accessible by others.
+    This private key will be ignored.
+    Load key "./Files/datadog-ec2.pem": bad permissions
+    ec2-user@ec2-3-107-86-65.ap-southeast-2.compute.amazonaws.com: Permission denied (publickey,gssapi-keyex,gssapi-with-mic). <br /><br />
+    ❯ chmod 400 ./Files/datadog-ec2.pem <br /><br />
+    ❯ ssh -i "./Files/datadog-ec2.pem" ec2-user@ec2-3-107-86-65.ap-southeast-2.compute.amazonaws.com <br />
+    ,     #_
+    ~\_  ####_        Amazon Linux 2023
+    ~~  \_#####\
+    ~~     \###|
+    ~~       \#/ ___   https://aws.amazon.com/linux/amazon-linux-2023
+    ~~       V~' '->
+        ~~~         /
+        ~~._.   _/
+            _/ _/
+        _/m/'
+    [ec2-user@ip-172-31-11-247 ~]$ 
+    </pre>
+    <br />
+    <hr>
+    </details>
+
+
+

@@ -557,6 +557,12 @@ Complete! <br />
 <img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_044-a1.1.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
 </div><br /><hr>
 </details>
+<details><summary>🔰 Documentation: Setting up Database Monitoring for AWS RDS managed postgres</summary>
+<div>
+<br />
+<img src="./gambar-petunjuk/ss_datadog_baba_019.png" alt="ss_datadog" style="display: block; margin: 0 auto;"> 
+</div><br /><hr>
+</details>
 <!-- processing -->
 <br /><hr />
 </details>

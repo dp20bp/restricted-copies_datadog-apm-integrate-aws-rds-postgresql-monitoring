@@ -202,3 +202,19 @@ https://ap1.datadoghq.com
 </div><br /><hr />
 </details>
 
+<details><summary>🟠 009 - Overview - AWS IAM - Policies ✳️</summary>
+<br />
+<br />
+⌘ Create policy (IAM) name: DatadogIntegrationPolicy
+<br />
+<div align="left">
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_017.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_018.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_019.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_020.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_021.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_022.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_023.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
+</div><br /><hr />
+</details>
+

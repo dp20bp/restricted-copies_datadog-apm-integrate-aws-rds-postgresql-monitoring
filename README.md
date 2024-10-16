@@ -737,3 +737,14 @@ Oct 15 15:54:16 ip-172-31-11-247.ap-southeast-2.compute.internal agent[77524]: 2
 <br /><hr />
 </details>
 
+<details><summary>🟠 016 - Overview - Datadog - (Ready) Database Monitoring </summary>
+<div>
+<br />
+<img src="./gambar-petunjuk/ss_datadog_baba_021.png" alt="ss_datadog" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_datadog_baba_022.png" alt="ss_datadog" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_datadog_baba_023.png" alt="ss_datadog" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_datadog_baba_024.png" alt="ss_datadog" style="display: block; margin: 0 auto;"> 
+</div>
+<br /><hr />
+</details>
+

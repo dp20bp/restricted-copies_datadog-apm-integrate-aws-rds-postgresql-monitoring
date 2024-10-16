@@ -83,3 +83,13 @@ https://ap1.datadoghq.com
 <img src="./gambar-petunjuk/ss_datadog_baba_002.png" alt="ss_datadog" style="display: block; margin: 0 auto;"> 
 </div><br /><hr />
 </details>
+
+<details><summary>🟠 007 - Overview - Datadog - Integration ( AWS )</summary>
+<div align="left">
+<br />
+<img src="./gambar-petunjuk/ss_datadog_baba_003.png" alt="ss_datadog" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_datadog_baba_004.png" alt="ss_datadog" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_datadog_baba_005.png" alt="ss_datadog" style="display: block; margin: 0 auto;"> 
+</div><br /><hr />
+</details>
+

@@ -563,6 +563,30 @@ Complete! <br />
 <img src="./gambar-petunjuk/ss_datadog_baba_019.png" alt="ss_datadog" style="display: block; margin: 0 auto;"> 
 </div><br /><hr>
 </details>
+<br />
+<b>[ PostgreSQL Access ]</b>
+<pre>
+❯ psql -h postgres-free-tier-01.c3eu0imki1jn.ap-southeast-2.rds.amazonaws.com --port 5432 -U postgres
+  Password: A#LCZen%dS
+</pre>
+⌘ [ Grant the Agent access ]:
+<pre>
+postgres=> \l
+                                                 List of databases
+   Name    |  Owner   | Encoding |   Collate   |    Ctype    | ICU Locale | Locale Provider |   Access privileges   
+-----------+----------+----------+-------------+-------------+------------+-----------------+-----------------------
+ postgres  | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 |            | libc            | 
+ rdsadmin  | rdsadmin | UTF8     | en_US.UTF-8 | en_US.UTF-8 |            | libc            | rdsadmin=CTc/rdsadmin
+ template0 | rdsadmin | UTF8     | en_US.UTF-8 | en_US.UTF-8 |            | libc            | =c/rdsadmin          +
+           |          |          |             |             |            |                 | rdsadmin=CTc/rdsadmin
+ template1 | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 |            | libc            | =c/postgres          +
+           |          |          |             |             |            |                 | postgres=CTc/postgres
+(4 rows)<br />
+postgres=>
+</pre>
+<div>
+<img src="./gambar-petunjuk/ss_datadog_baba_020.png" alt="ss_datadog" style="display: block; margin: 0 auto;"> 
+</div>
 <!-- processing -->
 <br /><hr />
 </details>

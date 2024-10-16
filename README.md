@@ -38,3 +38,14 @@
 <img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_010.png" alt="ss_aws" style="display: block; margin: 0 auto;"> 
 </div><br /><hr />
 </details>
+
+<details><summary>🟠 003 - Overview - AWS RDS - Modify Configuration Database</summary>
+<div align="left">
+<br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_011.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_012.png" alt="ss_aws" style="display: block; margin: 0 auto;"> 
+</div><br />
+Notes:<br />
+Modify the public access capability on the database only for testing connected only (before using EC2 instance later).
+<hr />
+</details>

@@ -587,6 +587,50 @@ postgres=>
 <div>
 <img src="./gambar-petunjuk/ss_datadog_baba_020.png" alt="ss_datadog" style="display: block; margin: 0 auto;"> 
 </div>
+⌘ [ Create the datadog user ]:
+<pre>
+postgres=> CREATE USER datadog WITH password 'UPY5LKjr8';
+CREATE ROLE
+postgres=>
+</pre>
+⌘ [ Create the following schema in every database ]:
+<pre>
+postgres=> CREATE SCHEMA datadog;
+GRANT USAGE ON SCHEMA datadog TO datadog;
+GRANT USAGE ON SCHEMA public TO datadog;
+GRANT pg_monitor TO datadog;
+CREATE EXTENSION IF NOT EXISTS pg_stat_statements schema public;
+CREATE SCHEMA
+GRANT
+GRANT
+GRANT ROLE
+CREATE EXTENSION
+postgres=> 
+</pre>
+⌘ [ Create the function in every database to enable the Agent to collect explain plans. ] 
+<pre>
+postgres=> CREATE OR REPLACE FUNCTION datadog.explain_statement(
+   l_query TEXT,
+   OUT explain JSON
+)
+RETURNS SETOF JSON AS
+$$
+DECLARE
+curs REFCURSOR;
+plan JSON; <br />
+BEGIN
+   OPEN curs FOR EXECUTE pg_catalog.concat('EXPLAIN (FORMAT JSON) ', l_query);
+   FETCH curs INTO plan;
+   CLOSE curs;
+   RETURN QUERY SELECT plan;
+END;
+$$
+LANGUAGE 'plpgsql'
+RETURNS NULL ON NULL INPUT
+SECURITY DEFINER;
+CREATE FUNCTION
+postgres=>
+</pre>
 <!-- processing -->
 <br /><hr />
 </details>

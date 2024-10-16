@@ -693,7 +693,57 @@ drwxr-xr-x.   2 dd-agent dd-agent  31 Oct 15 11:21 postgres.d <br />
 📑 [ Monitor multiple databases on multiple database hosts ]
 <img src="./gambar-petunjuk/ss_datadog_baba_020-1.1.png" alt="ss_datadog" style="display: block; margin: 0 auto;"> <br /><br />
 </div>
-<!-- processing -->
+<pre>
+[ec2-user@ip-172-31-11-247 datadog-agent]$ cd conf.d/postgres.d/<br />
+[ec2-user@ip-172-31-11-247 postgres.d]$ sudo wget https://truststore.pki.rds.amazonaws.com/ap-southeast-2/ap-southeast-2-bundle.pem
+--2024-10-15 15:31:24--  https://truststore.pki.rds.amazonaws.com/ap-southeast-2/ap-southeast-2-bundle.pem
+Resolving truststore.pki.rds.amazonaws.com (truststore.pki.rds.amazonaws.com)... 18.239.199.57, 18.239.199.14, 18.239.199.116, ...
+Connecting to truststore.pki.rds.amazonaws.com (truststore.pki.rds.amazonaws.com)|18.239.199.57|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4616 (4.5K) [application/octet-stream]
+Saving to: ‘ap-southeast-2-bundle.pem’ <br />
+ap-southeast-2-bundle.pem        100%[================================================================>]   4.51K  --.-KB/s    in 0s <br />   
+2024-10-15 15:31:25 (136 MB/s) - ‘ap-southeast-2-bundle.pem’ saved [4616/4616] <br />
+[ec2-user@ip-172-31-11-247 postgres.d]$ ls -lah
+total 68K
+drwxr-xr-x.   2 dd-agent dd-agent   64 Oct 15 15:31 .
+drwxr-xr-x. 211 dd-agent dd-agent  16K Oct 15 11:20 ..
+-rw-r--r--.   1 root     root     4.6K Sep 11 23:33 ap-southeast-2-bundle.pem
+-rw-r--r--.   1 dd-agent dd-agent  41K Sep 24 07:30 conf.yaml.example
+</pre>
+<pre>
+[ec2-user@ip-172-31-11-247 postgres.d]$ sudo vim conf.yaml
+. . .
+init_config:
+instances:
+  - dbm: true
+    host: postgres-free-tier-01.c3eu0imki1jn.ap-southeast-2.rds.amazonaws.com
+    port: 5432
+    username: datadog
+    password: UPY5LKjr8
+    tags:
+      - "dbinstanceidentifier:postgres-free-tier-01"
+</pre>
+<pre>
+[ec2-user@ip-172-31-11-247 postgres.d]$ sudo systemctl restart datadog-agent
+[ec2-user@ip-172-31-11-247 postgres.d]$ sudo systemctl status datadog-agent
+● datadog-agent.service - Datadog Agent
+     Loaded: loaded (/usr/lib/systemd/system/datadog-agent.service; enabled; preset: disabled)
+     Active: active (running) since Tue 2024-10-15 15:54:14 UTC; 4s ago
+   Main PID: 77524 (agent)
+      Tasks: 11 (limit: 1112)
+     Memory: 110.1M
+        CPU: 1.505s
+     CGroup: /system.slice/datadog-agent.service
+             └─77524 /opt/datadog-agent/bin/agent/agent run -p /opt/datadog-agent/run/agent.pid <br />
+Oct 15 15:54:16 ip-172-31-11-247.ap-southeast-2.compute.internal agent[77524]: 2024-10-15 15:54:16 UTC | CORE | INFO | (pkg/collector/worker/check_logger.go:40 in CheckStarted) | check:postgres | Running check...
+Oct 15 15:54:16 ip-172-31-11-247.ap-southeast-2.compute.internal agent[77524]: 2024-10-15 15:54:16 UTC | CORE | INFO | (pkg/collector/worker/check_logger.go:40 in CheckStarted) | check:ntp | Running check...
+Oct 15 15:54:16 ip-172-31-11-247.ap-southeast-2.compute.internal agent[77524]: 2024-10-15 15:54:16 UTC | CORE | INFO | (pkg/collector/worker/check_logger.go:59 in CheckFinished) | check:ntp | Done running check
+Oct 15 15:54:16 ip-172-31-11-247.ap-southeast-2.compute.internal agent[77524]: 2024-10-15 15:54:16 UTC | CORE | INFO | (pkg/util/containers/metrics/provider/registry.go:101 in collectorDiscovery) | Container metrics provide>
+Oct 15 15:54:16 ip-172-31-11-247.ap-southeast-2.compute.internal agent[77524]: 2024-10-15 15:54:16 UTC | CORE | INFO | (pkg/collector/python/datadog_agent.go:144 in LogMessage) | postgres:52ee42b33bbd1482 | (utils.py:313) |>
+Oct 15 15:54:16 ip-172-31-11-247.ap-southeast-2.compute.internal agent[77524]: 2024-10-15 15:54:16 UTC | CORE | INFO | (pkg/collector/python/datadog_agent.go:144 in LogMessage) | postgres:52ee42b33bbd1482 | (utils.py:313) |>
+[ec2-user@ip-172-31-11-247 postgres.d]$ 
+</pre>
 <br /><hr />
 </details>
 

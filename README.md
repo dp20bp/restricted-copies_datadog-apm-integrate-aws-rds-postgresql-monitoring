@@ -229,3 +229,20 @@ https://ap1.datadoghq.com
 <img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_028.png" alt="ss_aws" style="display: block; margin: 0 auto;"> 
 </div><br /><hr />
 </details>
+
+<details><summary>🟠 011 - Overview - Datadog - Integration ( Lanjutan )</summary>
+<div align="left">
+<br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_029.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br />
+⌘ AWS Account ID: 730335453692 <br />
+<br />
+<img src="./gambar-petunjuk/ss_datadog_baba_009.png" alt="ss_datadog" style="display: block; margin: 0 auto;"> <br />
+<br />
+🆗 **[Save anyway]** <br />
+<img src="./gambar-petunjuk/ss_datadog_baba_009.png" alt="ss_datadog" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_datadog_baba_010.png" alt="ss_datadog" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_datadog_baba_011.png" alt="ss_datadog" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_datadog_baba_012.png" alt="ss_datadog" style="display: block; margin: 0 auto;"> 
+</div><br /><hr />
+</details>
+

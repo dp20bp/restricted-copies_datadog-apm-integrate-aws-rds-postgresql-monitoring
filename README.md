@@ -246,3 +246,14 @@ https://ap1.datadoghq.com
 </div><br /><hr />
 </details>
 
+<details><summary>🟠 012 - Overview - Datadog - (Check) Database Monitoring</summary>
+<div align="left">
+<br />
+<img src="./gambar-petunjuk/ss_datadog_baba_013.png" alt="ss_datadog" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_datadog_baba_014.png" alt="ss_datadog" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_030.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_031.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_032.png" alt="ss_aws" style="display: block; margin: 0 auto;">
+</div><br /><hr />
+</details>
+

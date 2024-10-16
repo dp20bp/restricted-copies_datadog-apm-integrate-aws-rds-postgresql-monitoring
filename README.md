@@ -204,7 +204,6 @@ https://ap1.datadoghq.com
 
 <details><summary>🟠 009 - Overview - AWS IAM - Policies ✳️</summary>
 <br />
-<br />
 ⌘ Create policy (IAM) name: DatadogIntegrationPolicy
 <br />
 <div align="left">

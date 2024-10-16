@@ -214,7 +214,7 @@ https://ap1.datadoghq.com
 <img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_020.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
 <img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_021.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
 <img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_022.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
-<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_023.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_023.png" alt="ss_aws" style="display: block; margin: 0 auto;"> 
 </div><br /><hr />
 </details>
 

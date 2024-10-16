@@ -695,20 +695,10 @@ drwxr-xr-x.   2 dd-agent dd-agent  31 Oct 15 11:21 postgres.d <br />
 </div>
 <pre>
 [ec2-user@ip-172-31-11-247 datadog-agent]$ cd conf.d/postgres.d/<br />
-[ec2-user@ip-172-31-11-247 postgres.d]$ sudo wget https://truststore.pki.rds.amazonaws.com/ap-southeast-2/ap-southeast-2-bundle.pem
---2024-10-15 15:31:24--  https://truststore.pki.rds.amazonaws.com/ap-southeast-2/ap-southeast-2-bundle.pem
-Resolving truststore.pki.rds.amazonaws.com (truststore.pki.rds.amazonaws.com)... 18.239.199.57, 18.239.199.14, 18.239.199.116, ...
-Connecting to truststore.pki.rds.amazonaws.com (truststore.pki.rds.amazonaws.com)|18.239.199.57|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 4616 (4.5K) [application/octet-stream]
-Saving to: ‘ap-southeast-2-bundle.pem’ <br />
-ap-southeast-2-bundle.pem        100%[================================================================>]   4.51K  --.-KB/s    in 0s <br />   
-2024-10-15 15:31:25 (136 MB/s) - ‘ap-southeast-2-bundle.pem’ saved [4616/4616] <br />
 [ec2-user@ip-172-31-11-247 postgres.d]$ ls -lah
 total 68K
 drwxr-xr-x.   2 dd-agent dd-agent   64 Oct 15 15:31 .
 drwxr-xr-x. 211 dd-agent dd-agent  16K Oct 15 11:20 ..
--rw-r--r--.   1 root     root     4.6K Sep 11 23:33 ap-southeast-2-bundle.pem
 -rw-r--r--.   1 dd-agent dd-agent  41K Sep 24 07:30 conf.yaml.example
 </pre>
 <pre>

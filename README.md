@@ -93,3 +93,112 @@ https://ap1.datadoghq.com
 </div><br /><hr />
 </details>
 
+<details><summary>🟠 008 - Overview - Datadog - Integration - View Documentation ( Site: API )</summary>
+<div align="left">
+<br />
+<img src="./gambar-petunjuk/ss_datadog_baba_006.png" alt="ss_datadog" style="display: block; margin: 0 auto;"> <br /><br />
+⌘ AWS External ID: cc5c44*******************d7aafd0
+<img src="./gambar-petunjuk/ss_datadog_baba_007.png" alt="ss_datadog" style="display: block; margin: 0 auto;"> <br />
+<details><summary>AWS integration IAM policy</summary>
+<pre>
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "apigateway:GET",
+                "autoscaling:Describe*",
+                "backup:List*",
+                "budgets:ViewBudget",
+                "cloudfront:GetDistributionConfig",
+                "cloudfront:ListDistributions",
+                "cloudtrail:DescribeTrails",
+                "cloudtrail:GetTrailStatus",
+                "cloudtrail:LookupEvents",
+                "cloudwatch:Describe*",
+                "cloudwatch:Get*",
+                "cloudwatch:List*",
+                "codedeploy:List*",
+                "codedeploy:BatchGet*",
+                "directconnect:Describe*",
+                "dynamodb:List*",
+                "dynamodb:Describe*",
+                "ec2:Describe*",
+                "ec2:GetTransitGatewayPrefixListReferences",
+                "ec2:SearchTransitGatewayRoutes",
+                "ecs:Describe*",
+                "ecs:List*",
+                "elasticache:Describe*",
+                "elasticache:List*",
+                "elasticfilesystem:DescribeFileSystems",
+                "elasticfilesystem:DescribeTags",
+                "elasticfilesystem:DescribeAccessPoints",
+                "elasticloadbalancing:Describe*",
+                "elasticmapreduce:List*",
+                "elasticmapreduce:Describe*",
+                "es:ListTags",
+                "es:ListDomainNames",
+                "es:DescribeElasticsearchDomains",
+                "events:CreateEventBus",
+                "fsx:DescribeFileSystems",
+                "fsx:ListTagsForResource",
+                "health:DescribeEvents",
+                "health:DescribeEventDetails",
+                "health:DescribeAffectedEntities",
+                "kinesis:List*",
+                "kinesis:Describe*",
+                "lambda:GetPolicy",
+                "lambda:List*",
+                "logs:DeleteSubscriptionFilter",
+                "logs:DescribeLogGroups",
+                "logs:DescribeLogStreams",
+                "logs:DescribeSubscriptionFilters",
+                "logs:FilterLogEvents",
+                "logs:PutSubscriptionFilter",
+                "logs:TestMetricFilter",
+                "oam:ListSinks",
+                "oam:ListAttachedLinks",
+                "organizations:Describe*",
+                "organizations:List*",
+                "rds:Describe*",
+                "rds:List*",
+                "redshift:DescribeClusters",
+                "redshift:DescribeLoggingStatus",
+                "route53:List*",
+                "s3:GetBucketLogging",
+                "s3:GetBucketLocation",
+                "s3:GetBucketNotification",
+                "s3:GetBucketTagging",
+                "s3:ListAllMyBuckets",
+                "s3:PutBucketNotification",
+                "ses:Get*",
+                "sns:List*",
+                "sns:Publish",
+                "sns:GetSubscriptionAttributes",
+                "sqs:ListQueues",
+                "states:ListStateMachines",
+                "states:DescribeStateMachine",
+                "support:DescribeTrustedAdvisor*",
+                "support:RefreshTrustedAdvisorCheck",
+                "tag:GetResources",
+                "tag:GetTagKeys",
+                "tag:GetTagValues",
+                "wafv2:ListLoggingConfigurations",
+                "wafv2:GetLoggingConfiguration",
+                "xray:BatchGetTraces",
+                "xray:GetTraceSummaries"
+            ],
+            "Effect": "Allow",
+            "Resource": "*"
+        }
+    ]
+}
+</pre>
+</details>
+<br />
+⌘ Datadog Site: API <br />
+⌘ Account ID Datadog: 417141415827
+<img src="./gambar-petunjuk/ss_datadog_baba_008_revision_1.png" alt="ss_datadog" style="display: block; margin: 0 auto;"> <br /><br />
+</div><br /><hr />
+</details>
+

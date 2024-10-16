@@ -63,3 +63,10 @@ The inbound setting in the security-group can be removed later after there is a 
 This is only for testing rds database access from the outside.
 <hr />
 </details>
+
+<details><summary>🟠 005 - Overview - DBeaver - Connection Test</summary>
+<div align="left">
+<br />
+<img src="./gambar-petunjuk/ss_dbeaver_abumuhammadbabah2019.png" alt="ss_aws" style="display: block; margin: 0 auto;"> 
+</div><br /><hr />
+</details>

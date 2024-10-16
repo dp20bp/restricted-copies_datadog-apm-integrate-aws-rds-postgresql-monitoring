@@ -544,6 +544,19 @@ Complete! <br />
 </pre>
 </details>
 <br />
+<details><summary>🔰 Overview: Setting up connection between RDS databases and EC2 instances</summary>
+<div>
+<br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_040.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_041.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_042.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_043.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_044.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
+[ Successful outcome ]:
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_044-a1.0.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_044-a1.1.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
+</div><br /><hr>
+</details>
 <!-- processing -->
 <br /><hr />
 </details>

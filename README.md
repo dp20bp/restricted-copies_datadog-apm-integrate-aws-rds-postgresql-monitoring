@@ -13,3 +13,11 @@
     <img src="./gambar-petunjuk/ss_datadog_getstarted_003.png" alt="ss_datadog" style="display: block; margin: 0 auto;"> 
     </div><br /><hr />
   </details>
+
+🍀 **[ Preparation ] restricted-copies:**
+<details><summary>🟠 001 - Overview - AWS Billing ( Early start )</summary>
+<div align="left">
+<br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_001.png" alt="ss_aws" style="display: block; margin: 0 auto;">
+</div><br /><hr />
+</details>

@@ -687,6 +687,12 @@ drwxr-xr-x.   2 dd-agent dd-agent   36 Oct 15 11:21 selinux
 drwxr-xr-x.   2 dd-agent dd-agent  31 Oct 15 11:21 postgres.d <br />
 [ec2-user@ip-172-31-11-247 datadog-agent]$ sudo touch conf.d/postgres.d/conf.yaml
 </pre>
+<div>
+📑 [ Monitoring one database on one database host ]
+<img src="./gambar-petunjuk/ss_datadog_baba_020-1.0.png" alt="ss_datadog" style="display: block; margin: 0 auto;"> <br /><br />
+📑 [ Monitor multiple databases on multiple database hosts ]
+<img src="./gambar-petunjuk/ss_datadog_baba_020-1.1.png" alt="ss_datadog" style="display: block; margin: 0 auto;"> <br /><br />
+</div>
 <!-- processing -->
 <br /><hr />
 </details>

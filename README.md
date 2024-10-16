@@ -566,7 +566,7 @@ Complete! <br />
 <br />
 <b>[ PostgreSQL Access ]</b>
 <pre>
-❯ psql -h postgres-free-tier-01.c3eu0imki1jn.ap-southeast-2.rds.amazonaws.com --port 5432 -U postgres
+[ec2-user@ip-172-31-11-247 ~] psql -h postgres-free-tier-01.c3eu0imki1jn.ap-southeast-2.rds.amazonaws.com --port 5432 -U postgres
   Password: A#LCZen%dS
 </pre>
 ⌘ [ Grant the Agent access ]:

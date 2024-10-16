@@ -269,3 +269,13 @@ https://ap1.datadoghq.com
 <img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_039.png" alt="ss_aws" style="display: block; margin: 0 auto;"> 
 </div><br /><hr />
 </details>
+
+&nbsp;
+
+[ Instance Running State ] <br />
+Public IPv4: 3.107.86.65 
+<pre>
+[ SSH Connection ]
+❯ ssh -i "./Files/datadog-ec2.pem" ec2-user@ec2-3-107-86-65.ap-southeast-2.compute.amazonaws.com
+</pre>
+

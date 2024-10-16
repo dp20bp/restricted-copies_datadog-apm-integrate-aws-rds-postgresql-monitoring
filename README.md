@@ -469,3 +469,82 @@ Complete! <br />
 </details>
 </div><br /><hr>
 </details>
+
+<details><summary>🟠 015 - Overview - Configuration in Instance (EC2) <mark>datadog-ec2-01:</mark> <br />
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;⌘ VPC for RDS database and EC2 instance. <br />
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;⌘ Setting Up Database Monitoring for self hosted Postgres. </summary>
+<br />
+[ Install postgresql ]
+<pre>
+[ec2-user@ip-172-31-11-247 ~]$ sudo dnf search postgresql15 
+</pre>
+<details><summary>Response:</summary>
+<pre>
+  Last metadata expiration check: 0:23:08 ago on Tue Oct 15 13:17:01 2024.
+  ============================================== Name Exactly Matched: postgresql15 ==============================================
+  postgresql15.x86_64 : PostgreSQL client programs
+  ================================================== Name Matched: postgresql15 ==================================================
+  postgresql15-contrib.x86_64 : Extension modules distributed with PostgreSQL
+  postgresql15-docs.x86_64 : Extra documentation for PostgreSQL
+  postgresql15-llvmjit.x86_64 : Just-in-time compilation support for PostgreSQL
+  postgresql15-plperl.x86_64 : The Perl procedural language for PostgreSQL
+  postgresql15-plpython3.x86_64 : The Python3 procedural language for PostgreSQL
+  postgresql15-pltcl.x86_64 : The Tcl procedural language for PostgreSQL
+  postgresql15-private-devel.x86_64 : PostgreSQL development header files for this build of PostgreSQL server
+  postgresql15-private-libs.x86_64 : The shared libraries required only for this build of PostgreSQL server
+  postgresql15-server.x86_64 : The programs needed to create and run a PostgreSQL server
+  postgresql15-server-devel.x86_64 : PostgreSQL development header files and libraries
+  postgresql15-static.x86_64 : Statically linked PostgreSQL libraries
+  postgresql15-test.x86_64 : The test suite distributed with PostgreSQL
+  postgresql15-test-rpm-macros.noarch : Convenience RPM macros for build-time testing against PostgreSQL server
+  postgresql15-upgrade.x86_64 : Support for upgrading from the previous major release of PostgreSQL
+  postgresql15-upgrade-devel.x86_64 : Support for build of extensions required for upgrade process
+  [ec2-user@ip-172-31-11-247 ~]$ 
+</pre>
+</details>
+<pre>
+[ec2-user@ip-172-31-11-247 ~]$ sudo dnf install -y postgresql15
+</pre>
+<details><summary>Response:</summary>
+<pre>
+  Last metadata expiration check: 0:01:52 ago on Tue Oct 15 13:17:01 2024.
+  Dependencies resolved.
+  =======================================================================================================================
+  Package                              Architecture      Version                           Repository              Size
+  =======================================================================================================================
+  Installing:
+  postgresql15                         x86_64            15.8-1.amzn2023.0.1               amazonlinux            1.6 M
+  Installing dependencies:
+  postgresql15-private-libs            x86_64            15.8-1.amzn2023.0.1               amazonlinux            145 k <br />
+  Transaction Summary
+  =======================================================================================================================
+  Install  2 Packages <br />
+  Total download size: 1.8 M
+  Installed size: 6.9 M
+  Downloading Packages:
+  (1/2): postgresql15-private-libs-15.8-1.amzn2023.0.1.x86_64.rpm                        2.4 MB/s | 145 kB     00:00    
+  (2/2): postgresql15-15.8-1.amzn2023.0.1.x86_64.rpm                                      21 MB/s | 1.6 MB     00:00    
+  -----------------------------------------------------------------------------------------------------------------------
+  Total                                                                                   14 MB/s | 1.8 MB     00:00     
+  Running transaction check
+  Transaction check succeeded.
+  Running transaction test
+  Transaction test succeeded.
+  Running transaction
+    Preparing        :                                                                                               1/1 
+    Installing       : postgresql15-private-libs-15.8-1.amzn2023.0.1.x86_64                                          1/2 
+    Installing       : postgresql15-15.8-1.amzn2023.0.1.x86_64                                                       2/2 
+    Running scriptlet: postgresql15-15.8-1.amzn2023.0.1.x86_64                                                       2/2 
+    Verifying        : postgresql15-15.8-1.amzn2023.0.1.x86_64                                                       1/2 
+    Verifying        : postgresql15-private-libs-15.8-1.amzn2023.0.1.x86_64                                          2/2  <br />
+  Installed:
+    postgresql15-15.8-1.amzn2023.0.1.x86_64             postgresql15-private-libs-15.8-1.amzn2023.0.1.x86_64  <br /> 
+  Complete!
+  [ec2-user@ip-172-31-11-247 ~]$  <br />
+</pre>
+</details>
+<br />
+<!-- processing -->
+<br /><hr />
+</details>
+

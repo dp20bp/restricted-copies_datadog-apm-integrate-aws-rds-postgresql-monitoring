@@ -748,3 +748,15 @@ Oct 15 15:54:16 ip-172-31-11-247.ap-southeast-2.compute.internal agent[77524]: 2
 <br /><hr />
 </details>
 
+<details><summary>🟠 017 - Overview - (Savings) AWS Billing</summary>
+<div align="left">
+<br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_045.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_046.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_047.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_048.png" alt="ss_aws" style="display: block; margin: 0 auto;"> 
+</div>
+<br /><hr />
+</details>
+
+&nbsp;

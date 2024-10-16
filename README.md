@@ -257,3 +257,15 @@ https://ap1.datadoghq.com
 </div><br /><hr />
 </details>
 
+<details><summary>🟠 013 - Overview - AWS Create Instance ( EC2 ) ✳️</summary>
+<div align="left">
+<br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_033.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_034.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_035.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_036.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_037.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_038.png" alt="ss_aws" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_aws_abumuhammadbabah2019_039.png" alt="ss_aws" style="display: block; margin: 0 auto;"> 
+</div><br /><hr />
+</details>

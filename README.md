@@ -631,6 +631,38 @@ SECURITY DEFINER;
 CREATE FUNCTION
 postgres=>
 </pre>
+⌘ [ Verify ] 
+<pre>
+postgres=> \q <br />
+psql -h postgres-free-tier-01.c3eu0imki1jn.ap-southeast-2.rds.amazonaws.com --port 5432 -U datadog postgres -A \
+  -c "select * from pg_stat_database limit 1;" \
+  && echo -e "\e[0;32mPostgres connection - OK\e[0m" \
+  || echo -e "\e[0;31mCannot connect to Postgres\e[0m"
+psql -h postgres-free-tier-01.c3eu0imki1jn.ap-southeast-2.rds.amazonaws.com --port 5432 -U datadog postgres -A \
+  -c "select * from pg_stat_activity limit 1;" \
+  && echo -e "\e[0;32mPostgres pg_stat_activity read OK\e[0m" \
+  || echo -e "\e[0;31mCannot read from pg_stat_activity\e[0m"
+psql -h postgres-free-tier-01.c3eu0imki1jn.ap-southeast-2.rds.amazonaws.com --port 5432 -U datadog postgres -A \
+  -c "select * from pg_stat_statements limit 1;" \
+  && echo -e "\e[0;32mPostgres pg_stat_statements read OK\e[0m" \
+  || echo -e "\e[0;31mCannot read from pg_stat_statements\e[0m" <br />
+Password for user datadog: UPY5LKjr8
+datid|datname|numbackends|xact_commit|xact_rollback|blks_read|blks_hit|tup_returned|tup_fetched|tup_inserted|tup_updated|tup_deleted|conflicts|temp_files|temp_bytes|deadlocks|checksum_failures|checksum_last_failure|blk_read_time|blk_write_time|stats_reset
+0||0|0|0|104|462910|245452|154160|30|29|3|0|0|0|0|0||0|0|2023-09-20 02:19:13.878017+00
+(1 row)
+Postgres connection - OK <br />
+Password for user datadog: UPY5LKjr8
+datid|datname|pid|usesysid|usename|application_name|client_addr|client_hostname|client_port|backend_start|xact_start|query_start|state_change|wait_event_type|wait_event|state|backend_xid|backend_xmin|query|backend_type
+||712|10|rdsadmin|||||2024-10-14 15:29:12.294311+00||||Activity|LogicalLauncherMain|||||logical replication launcher
+(1 row)
+Postgres pg_stat_activity read OK <br />
+Password for user datadog: UPY5LKjr8
+userid|dbid|queryid|query|calls|total_time|min_time|max_time|mean_time|stddev_time|rows|shared_blks_hit|shared_blks_read|shared_blks_dirtied|shared_blks_written|local_blks_hit|local_blks_read|local_blks_dirtied|local_blks_written|temp_blks_read|temp_blks_written|blk_read_time|blk_write_time
+10|16384|-532488427722366057|MOVE -795 IN "query-cursor_1"|1|0.023062|0.023062|0.023062|0.023062|0|0|0|0|0|0|0|0|0|0|0|0|0|0
+(1 row)
+Postgres pg_stat_statements read OK
+</pre>
+<br />
 <!-- processing -->
 <br /><hr />
 </details>

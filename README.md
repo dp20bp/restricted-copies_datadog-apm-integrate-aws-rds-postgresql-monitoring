@@ -70,3 +70,16 @@ This is only for testing rds database access from the outside.
 <img src="./gambar-petunjuk/ss_dbeaver_abumuhammadbabah2019.png" alt="ss_aws" style="display: block; margin: 0 auto;"> 
 </div><br /><hr />
 </details>
+
+&nbsp;
+
+**[ Datadog Account Access ]** <br />
+https://ap1.datadoghq.com
+
+<details><summary>🟠 006 - Overview - Datadog - Login Access Console</summary>
+<div align="left">
+<br />
+<img src="./gambar-petunjuk/ss_datadog_baba_001.png" alt="ss_datadog" style="display: block; margin: 0 auto;"> <br /><br />
+<img src="./gambar-petunjuk/ss_datadog_baba_002.png" alt="ss_datadog" style="display: block; margin: 0 auto;"> 
+</div><br /><hr />
+</details>
